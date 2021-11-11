@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Irish Grover";
+}
+#logoTech {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+#logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+body {
+  font-family: "Irish Grover", cursive;
+  background-color: black;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: antiquewhite;
+}
+#container {
+  display: flex;
+  width: 900px;
+  height: 270px;
+  border-radius: 20px;
+  background-color: rgba(26, 14, 14, 0.322);
+  text-align: center;
+  margin-top: 50px;
+  border: red 6px solid;
+}
+#image {
+  position: absolute;
+  width: 430px;
+  height: 250px;
+  border-radius: 20px;
+  border: red 3px solid;
+}
+#image:hover {
+  width: 450px;
+  height: 270px;
+  transition: 1.2s;
+}
+footer {
+  margin-top: 100px;
+  width: 100vw;
+  background-color: #333;
+  text-align: center;
+}
+footer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px black solid;
+}

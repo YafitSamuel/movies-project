@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Irish Grover", cursive;
+  background-color: black;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  color: #ddd;
+}
+#logoTech {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+#logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+}
+.navbar {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.911);
+  font-family: "Irish Grover", cursive;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#titelContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+ #titelAddMovie{
+   margin: 30px;
+   color:red;
+   text-shadow: #333 4px 3px;
+ }
+#divForm {
+  display: flex;
+  justify-content: center;
+}
+#myForm {
+  width: 150px;
+  text-align: center;
+}
+#myForm input{
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: 4px solid  #333;
+}
+#btnSearch {
+  width: 120px;
+  text-align: center;
+  margin-left: 25px;
+  border: 5px solid red;
+  border-radius: 10px;
+}
+footer {
+  margin-top:180px ;
+  width: 100vw;
+  background-color: #333;
+  text-align: center;
+}
+footer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px black solid;
+}
+

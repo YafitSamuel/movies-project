@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Irish Grover", cursive;
+  background-color: black;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.navbar {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#logoTech {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+#logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+a:link,a:visited{
+  color: red;
+  text-decoration-line: none;
+}
+#div {
+  display: flex;
+  justify-content: center;
+}
+#btnSearch {
+  border: 4px solid #333;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+}
+#inputSearch {
+  width: 500px;
+  height: 30px;
+  border: 4px solid #333;
+  border-radius: 10px;
+  justify-content: center;
+}
+#myDiv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+}
+.container {
+  width: 350px;
+  height: 470px;
+  margin: 10px;
+  color: white;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.178);
+  text-align: center;
+  margin-left: 50px;
+}
+.image {
+  width: 230px;
+  height: 250px;
+  border: 5px solid white;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.image:hover {
+  width: 250px;
+  height: 270px;
+  transition: 1.4s;
+  border: red 3px solid;
+}
+#imgMovie {
+  width: 100vw;
+  height: 500px;
+  margin-bottom: 50px;
+}
+footer {
+  width: 100vw;
+  background-color: #333;
+  text-align: center;
+  margin-top: 80px; 
+}
+footer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px black solid;
+}
+.deleteMovie{
+  background-color: rgba(255, 255, 255, 0.178);
+  border: 5px red solid;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 60px; 
+}
+
