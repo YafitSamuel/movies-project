@@ -7,7 +7,6 @@ async function apiFunction(bApi) {
     return error;
   }
 }
-
 function showAllToScreen(object) {
   for (const item of object) {
     myDiv.innerHTML += `<div class="container"> 
@@ -15,6 +14,7 @@ function showAllToScreen(object) {
       <h3><b> rating:${item.rating}<b></h3>
       <img class=" image"src="${item.image}"><br>
       <button id="${item._id}" onclick="callDelete(this.id)" class="deleteMovie"> deleteMovie </button>
+      <a href ="./data.html?id=${item._id}"<button id="${item._id}" class="editMovie"> editMovie </button></a>
       </div>`;
   }
 }
@@ -23,10 +23,7 @@ apiFunction(`${basicApi}${inputSearch.value}`).then((res) => {
 });
 
 
-
-
 // Delete
-
 async function deleteFromApi(id, option) {
   try {
     return await fetch(
@@ -37,20 +34,16 @@ async function deleteFromApi(id, option) {
     return error;
   }
 }
-
 function callDelete(deleteId) {
   const options = {
     method: "DELETE",
   };
-  deleteFromApi(deleteId, options);
-  console.log(options);
+  deleteFromApi(deleteId, options).then(alert("The movie has been deleted"))
+  if(alert)  location.reload() ;
+  
 }
 
-
-
-
 // search movie by name
-
 async function searchByName(nameInput) {
   try {
     return await fetch(
@@ -60,7 +53,6 @@ async function searchByName(nameInput) {
     return error;
   }
 }
-
 function showOneMovieByName(object) {
   for (const item of object) {
     myDiv.innerHTML = `<div class="container"> 
@@ -81,6 +73,29 @@ inputSearch.oninput = () => {
   }
 };
 
+
+
+// edit
+// function editMovie(_id) {
+//   let movie = new Movie(
+//     movieName.value,
+//     ratingInput.value,
+//     imageInput.value,
+//     synopsisInput.value,
+//     linkInput.value
+//   )
+//   let options = {
+//     method:"PUT",
+//     body: JSON.stringify({ movie }),
+//     headers: { "Content-Type": "application/json" }
+//   }
+//   apiFunction(`https://moviesmern.herokuapp.com/movies/movie/${_id}`, options);
+//   };
+
+
+
+
+ 
 
 
 

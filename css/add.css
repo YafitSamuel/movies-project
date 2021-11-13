@@ -9,6 +9,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   color: #ddd;
 }
 #logoTech {
@@ -75,7 +76,7 @@ body {
   border-radius: 10px;
 }
 footer {
-  margin-top:180px ;
+  margin-top:80px ;
   width: 100vw;
   background-color: #333;
   text-align: center;

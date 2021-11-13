@@ -39,16 +39,5 @@ btnSearch.onclick = () => {
 };
 
 
-// update
-put.onclick = () => {
-let options = {
-  method:"PUT",
-  body: JSON.stringify({ movie }),
-  headers: { "Content-Type": "application/json" }
-}
-apiFunction("https://moviesmern.herokuapp.com/movies/movie/:id", options);
-};
-
-
 
 
