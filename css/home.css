@@ -1,17 +1,18 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
 body {
-  font-family: "Irish Grover", cursive;
+  
   background-size: cover;
   width: 100wh;
   height: 100vh;
   background-color: black;
-  background-image: url("https://i.pinimg.com/originals/f6/03/17/f603171b27ce8b1eff085c11d3e3d0b9.gif");
   background-repeat: no-repeat;
 }
+
 #logoTech {
   width: 50px;
   height: 50px;
@@ -22,15 +23,8 @@ body {
   height: 50px;
   border-radius: 50px;
 }
-#container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-#background {
-  height: 100px;
-  width: 100vw;
-}
+
+
 .navbar {
   overflow: hidden;
   display: flex;
@@ -53,11 +47,26 @@ body {
   color: black;
 }
 #title {
-  color: rgba(255, 0, 0, 0.637);
-  margin-top: 40px;
-  font-size: 74px;
-  margin-right: 50px;
-  background-color: rgba(0, 0, 0, 0.911);
+  color: red;
+  margin-top: 120px;
+  font-size: 70px;
+  text-shadow:  3px 5px  rgba(255, 255, 255, 0.377);
+  
+ 
+}
+#container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+#image{
+  width: 50vw;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 7px 10px red;
+  margin-right: 40px;
+
+
 }
 #category {
   display: flex;
@@ -65,14 +74,14 @@ body {
   justify-content: center;
 }
 #category img{
-  width: 150px;
+  width: 200px;
    height: 300px; 
    border-radius: 10px;
    margin: 20px;
-   margin-top: 400px;
+   margin-top: 100px;
 }
 footer {
-  width: 100vw;
+  width: 98vw;
   background-color: #333;
   text-align: center;
 }
