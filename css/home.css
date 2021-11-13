@@ -51,6 +51,7 @@ body {
   margin-top: 120px;
   font-size: 70px;
   text-shadow:  3px 5px  rgba(255, 255, 255, 0.377);
+  margin-left: 45px;
   
  
 }
@@ -60,7 +61,7 @@ body {
   justify-content: center;
 }
 #image{
-  width: 50vw;
+  width: 66vw;
   height: 500px;
   border-radius: 20px;
   box-shadow: 7px 10px red;

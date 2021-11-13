@@ -14,7 +14,7 @@ function showAllToScreen(object) {
       <h3><b> rating:${item.rating}<b></h3>
       <img class=" image"src="${item.image}"><br>
       <button id="${item._id}" onclick="callDelete(this.id)" class="deleteMovie"> deleteMovie </button>
-      <a href ="./data.html?id=${item._id}"<button id="${item._id}" class="editMovie"> editMovie </button></a>
+      <a href ="./add.html?id=${item._id}"<button id="${item._id}" class="editMovie"> editMovie </button></a>
       </div>`;
   }
 }

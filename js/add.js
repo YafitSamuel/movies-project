@@ -35,7 +35,8 @@ btnSearch.onclick = () => {
     body: JSON.stringify({ movie }),
     headers: { "Content-Type": "application/json" },
   }
-  apiFunction("https://moviesmern.herokuapp.com/movies/saveMovie", option);
+  apiFunction("https://moviesmern.herokuapp.com/movies/saveMovie", option).then(alert("The movie was successfully added"))
+  if(alert)  location.reload() ;
 };
 
 
