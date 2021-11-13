@@ -65,11 +65,11 @@ body {
   justify-content: center;
 }
 #category img{
-  width: 250px;
+  width: 150px;
    height: 300px; 
    border-radius: 10px;
    margin: 20px;
-   margin-top: 600px;
+   margin-top: 400px;
 }
 footer {
   width: 100vw;
