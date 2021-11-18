@@ -1,8 +1,8 @@
 var arrayimg = [
-    "http://intothenight.net/wp-content/uploads/2018/04/black-panther-michael-b.jordan.jpg",
-    "https://www.themoviedb.org/t/p/original/rYPM8jq4ucF7FCIN6Ae1uschpP0.jpg",
-    "https://upload.wikimedia.org/wikipedia/he/e/ec/Fatherhood_Netflix.jpg",
-    "http://moridimtv.com/images/xl/movies_new/tm3sUH72854h.jpg",
+    "https://i.pinimg.com/564x/5b/4c/7d/5b4c7d52af74554037dc7c599ec0b12e.jpg",
+    "https://i.pinimg.com/564x/9c/2a/10/9c2a10809174dc313b9a7571cdbfcbca.jpg",
+    "https://i.pinimg.com/474x/a9/03/0e/a9030ec46ba8388bd0433627b4ee7327.jpg",
+    "https://i.pinimg.com/564x/e0/29/d9/e029d9e78da6486e72f9b2b5d6dc10ac.jpg",
     
 ]
 
