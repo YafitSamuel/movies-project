@@ -1,10 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Exo', sans-serif;
-
-
-
+  font-family: "Exo", sans-serif;
 }
 body {
   background-size: cover;
@@ -38,17 +35,26 @@ body {
 .navbar a:hover {
   color: white;
 }
+#bigContainer{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+  
+}
 #title {
+  font-family: 'Butcherman', cursive;
   color: red;
   margin-top: 120px;
   font-size: 70px;
+ 
 }
 #container {
   margin-top: 50px;
   display: flex;
   justify-content: center;
 }
-#image{
+#image {
   width: 100vw;
   height: 500px;
 }
@@ -58,13 +64,12 @@ body {
   justify-content: center;
   color: #ddd;
 }
-#category img{
+#category img {
   width: 250px;
-   height: 300px; 
-   margin-top: 30px;
-   border-radius: 10px;
+  height: 300px;
+  margin-top: 30px;
+  border-radius: 10px;
   padding: 25px;
-  
 }
 footer {
   width: 100vw;
